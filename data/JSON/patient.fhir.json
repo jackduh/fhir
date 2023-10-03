@@ -1,0 +1,33 @@
+{
+    "resourceType": "Patient",
+    "name": [
+        {
+            "use": "official",
+            "given": ["Jack"],
+            "family":"Navarro"
+        }
+    ],
+    "gender": "male",
+    "birthDate": "1900-08-12",
+    "telecom": [
+        {
+            "value": "9496825490",
+            "use":"mobile",
+            "system":"phone"
+        },
+        {
+            "system": "email",
+            "value": "jackmiguelnavarro@gmail.com"
+        }
+    ],
+    "address": [
+        {
+            "line": [
+                "15 White Water Drive"
+            ],
+            "city": "Corona del Mar",
+            "state": "CA",
+            "postalCode": "92625"
+        }
+    ]
+}
