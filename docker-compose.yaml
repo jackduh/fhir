@@ -1,0 +1,17 @@
+services:
+  spark-fhir-store:
+    image: sparkfhir/spark:r4-latest
+    environment:
+      - StoreSettings__ConnectionString=mongodb://root:TopSecret@mongodb
+      - SparkSettings__Endpoint=http://0.0.0.0:5560/fhir
+    ports:
+      - "5560:80"
+    depends_on:
+      - mongodb
+  mongodb:
+    image: mongo
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: TopSecret
+    ports:
+      - "17017: 27017"

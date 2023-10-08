@@ -4,4 +4,6 @@ FHIR is designed to enable information exchange to support the provision of heal
 
 The intended scope of FHIR is broad, covering human and veterinary, clinical care, public health, clinical trials, administration and financial aspects. The standard is intended for global use and in a wide variety of architectures and scenarios.
 
-[FHIR Overview - Developers] (http://hl7.org/fhir/overview-dev.html)
+[FHIR Overview - Developers](http://hl7.org/fhir/overview-dev.html)
+[HL7 - Reading](https://www.wikihow.com/Read-HL7-Messages)
+[HL7 - Standards](http://sil-asia.org/exploring-hl7-standards)
